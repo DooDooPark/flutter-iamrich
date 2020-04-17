@@ -20,8 +20,8 @@ void main() {
           backgroundColor: Colors.blueGrey, // another properties
           body: Center(
             child: Image(
-              image: NetworkImage('https://images.unsplash.com/photo-1505673542670-a5e3ff5b14a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'),
-
+              image: AssetImage('images/diamond.png'),
+//              image: NetworkImage('https://images.unsplash.com/photo-1505673542670-a5e3ff5b14a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'),
           ), // body expect widget
           ), // body expect widget
         ),
